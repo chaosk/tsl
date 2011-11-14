@@ -1,0 +1,11 @@
+tsl
+
+
+Usage:
+
+from tsl import *
+# use skin name if it's a default one, or full path to the file
+skin = Skin("bluestripe", custom_colors=True)
+skin.set_rgb([255, 252, 0], [251, 255, 0])
+skin.render()
+skin.save("result.png")
